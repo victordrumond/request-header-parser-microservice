@@ -1,24 +1,35 @@
 {
-	"name": "request_header",
+	"name": "fcc-request-header-parser-microservice-project",
 	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"description": "A freeCodeCamp backend challenge",
+	"author": "Victor Drumond",
+	"engines": {
+		"node": "17.x"
+	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
+		"ejs": "^3.1.5",
 		"express": "^5.0.0-alpha.2",
 		"cors": "^2.8.1",
 		"dotenv": "^8.2.0"
 	},
+	"devDependencies": {
+		"got": "^11.3.0",
+		"tape": "^4.7.0"
+	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/victordrumond/request-header-parser-microservice"
 	},
 	"keywords": [
 		"node",
 		"hyperdev",
-		"express"
+		"express",
+		"heroku",
+		"freecodecamp"
 	],
 	"license": "MIT"
 }
