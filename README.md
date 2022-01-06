@@ -1,4 +1,4 @@
-# Timestamp Microservice
+# Request Header Parser Microservice
 https://victordrumond-header-parser.herokuapp.com/
 
 ## Technologies
@@ -6,7 +6,7 @@ https://victordrumond-header-parser.herokuapp.com/
 
 ## About
 * A [project](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/request-header-parser-microservice) from freeCodeCamp's Back End Development and APIs Certification.
-* Make a HTTP GET request to the API endpoint: `[url]/api/whoami`.
+* Make a GET request to the API endpoint: `[url]/api/whoami`.
 * Receive a JSON object containing the IP address, preferred languages and system infos for your device.
 
 ## Running Locally
